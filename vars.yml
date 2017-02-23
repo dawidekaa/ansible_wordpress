@@ -1,0 +1,9 @@
+---
+# Wersja rdzenia
+wordpress_core_version: "4.7.2"
+
+# Miejsce, gdzie wordpress bedzie pobrany i zainstalowany
+wordpress_core_path: "/var/www/wordpress-{{ wordpress_core_version }}-dev"
+
+# domena testowa 
+domain: "wordpresstest"
