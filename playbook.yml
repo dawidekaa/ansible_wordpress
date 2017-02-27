@@ -221,8 +221,4 @@
     - name: Enable ufw
       ufw: state=enabled policy=allow
 
-  handlers:
-    - name: Restart ssh
-      action: service name=ssh state=restarted
-      tags: common
 
